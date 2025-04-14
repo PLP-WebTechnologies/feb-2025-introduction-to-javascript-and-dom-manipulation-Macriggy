@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM Manipulation Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #content {
+      color: darkblue;
+      margin-bottom: 15px;
+    }
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 id="main-title">Welcome to My Page</h1>
+  </header>
+
+  <main>
+    <p id="content">This is some sample text.</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="toggleStyle()">Toggle Highlight</button>
+    <button onclick="addElement()">Add Element</button>
+    <button onclick="removeElement()">Remove Element</button>
+
+    <section id="extra-section"></section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Marc Reagan</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
